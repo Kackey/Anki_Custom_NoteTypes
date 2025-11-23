@@ -1,0 +1,46 @@
+<!-- Delete for Anki --start-- -->
+<link rel="stylesheet" href="Styling.css">
+<!-- Delete for Anki --end-- -->
+
+<div class="card">
+	<div class="back">
+		<div class="answer">
+			<div class="card-body">
+        {{type:Spelling}}
+        <hr>
+        <div class="word_card">
+
+					<div class="spelling">
+            {{#SoundFile}}{{SoundFile}}{{/SoundFile}}{{Spelling}}<br>
+					</div>
+
+          <div class="phonetic">
+            {{#PhoneticSymbols}}{{PhoneticSymbols}}{{/PhoneticSymbols}}
+          </div>
+
+					<div class="JP">
+            {{JP}}<br>
+					</div>
+
+          <div class="definition">
+            {{#Definition_SoundFile}}{{Definition_SoundFile}}{{/Definition_SoundFile}}<br>
+						{{Definition}}<br>
+          </div>
+
+          {{#Image}}{{Image}}{{/Image}}
+
+          <div class="phrase">
+						<br><hr>
+            {{#Example_SoundFile}}{{Example_SoundFile}}<br>{{/Example_SoundFile}}
+						{{#Example}}{{Example}}<br>{{/Example}}
+						{{#Example_Image}}{{Example_Image}}<br>{{/Example_Image}}
+          </div>
+
+          <div class='extra_note'>
+            {{#Extra_Note}}<br><hr>{{Extra_Note}}{{/Extra_Note}}
+          </div>
+
+        </div>
+		</div>
+	</div>
+</div>

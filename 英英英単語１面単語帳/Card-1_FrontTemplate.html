@@ -1,19 +1,7 @@
-<!-- Fields
-01. Title
-02. Spelling
-03. Soundfile
-04. Definition
-05. Definition_Soundfile
-06. JP
-07. Image
-08. PhoneticSymbols
-09. Example
-10. Example_Soundfile
-11. Example_Image
-12. Extra_Note
--->
+<!-- Delete for Anki --start-- -->
+<link rel="stylesheet" href="Styling.css">
+<!-- Delete for Anki --end-- -->
 
-<!-- 表面 -->
 <div class="card">
   <div class="front">
     <div class="question">
@@ -28,48 +16,4 @@
       </div>
     </div>
   </div>
-</div>
-
-<!-- 裏面 -->
-<div class="card">
-	<div class="back">
-		<div class="answer">
-			<div class="card-body">
-        {{type:Spelling}}
-        <hr>
-        <div class="word_card">
-
-					<div class="spelling">
-            {{#SoundFile}}{{SoundFile}}{{/SoundFile}}{{Spelling}}<br>
-					</div>
-
-          <div class="phonetic">
-            {{#PhoneticSymbols}}{{PhoneticSymbols}}{{/PhoneticSymbols}}
-          </div>
-
-					<div class="JP">
-            {{JP}}<br>
-					</div>
-
-          <div class="definition">
-            {{#Definition_SoundFile}}{{Definition_SoundFile}}{{/Definition_SoundFile}}<br>
-						{{Definition}}<br>
-          </div>
-
-          {{#Image}}{{Image}}{{/Image}}
-
-          <div class="phrase">
-						<br><hr>
-            {{#Example_SoundFile}}{{Example_SoundFile}}<br>{{/Example_SoundFile}}
-						{{#Example}}{{Example}}<br>{{/Example}}
-						{{#Example_Image}}{{Example_Image}}<br>{{/Example_Image}}
-          </div>
-
-          <div class='extra_note'>
-            {{#Extra_Note}}<br><hr>{{Extra_Note}}{{/Extra_Note}}
-          </div>
-
-        </div>
-		</div>
-	</div>
 </div>
