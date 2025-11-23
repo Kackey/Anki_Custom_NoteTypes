@@ -6,11 +6,11 @@
 	<div class="back">
 		<div class="answer">
 			<div class="card-body">
-        {{type:Spelling}}
+        {{type:EN}}
         <hr>
         <div class="word_card">
 
-          {{#SoundFile}}{{SoundFile}}{{/SoundFile}}{{Spelling}}<br>
+          {{#SoundFile}}{{SoundFile}}{{/SoundFile}}{{EN}}<br>
 
           <div class="phonetic">
             {{#PhoneticSymbols}}{{PhoneticSymbols}}{{/PhoneticSymbols}}
@@ -18,14 +18,9 @@
 
           {{JP}}<br>
 
-          <div class="definition">
-            {{#Definition_SoundFile}}{{Definition_SoundFile}}{{/Definition_SoundFile}}<br>
-            {{Definition}}<br>
-          </div>
-
           {{#Image}}{{Image}}{{/Image}}
 
-          <div class="phrase">
+          <div class="example">
             <br><hr>
             {{#Example_SoundFile}}{{Example_SoundFile}}<br>{{/Example_SoundFile}}
             {{#Example}}{{Example}}<br>{{/Example}}
