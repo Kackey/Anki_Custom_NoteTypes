@@ -7,4 +7,10 @@
 07. Example
 08. Example_Soundfile
 09. Example_Image
+10. Example2
+11. Example2_Sound
+12. Example2_Image
+13. Example3
+14. Example3_Sound
+15. Example3_Image
 10. Extra_Note
