@@ -1,0 +1,97 @@
+
+.card {
+  font-family: Meiryo, Arial;
+  font-size: 20px;
+  text-align: center;
+  background: white;
+  margin: auto;
+}
+
+.front {
+  color: black;
+  border: 5px solid;
+  border-radius: 7px;
+  border-color: #FFE500;
+  font-weight: 400;
+  font-size: 30px;
+  padding: 15px;
+}
+
+.back {
+  color: black;
+  border: 5px solid;
+  border-radius: 7px;
+  border-color: #008542;
+  font-weight: 400;
+  font-size: 30px;
+  padding: 15px;
+}
+
+.question {
+  color: #FED500;
+  text-align: left;
+}
+
+.card-title {
+  text-align: center;
+  color: white;
+  margin: auto;
+  border-radius: 7px;
+  background: #FED500;
+}
+
+.front .spelling {
+  font-size: 100px;
+}
+
+.card-body {
+  text-align: center;
+  background: white;
+  color: black;
+  margin: auto;
+}
+
+.answer {
+  color: #008542;
+  text-align: left;
+}
+
+.image_center {
+  margin:0 auto;
+}
+
+.word_card {
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 30px;
+}
+
+.phonetic {
+  font-size: 20px;
+}
+
+.dialogue {
+  font-size: 20px;
+}
+
+.word {
+  font-size: 20px;
+}
+
+
+.example {
+  font-size: 20px;
+}
+
+.sentence {
+  font-size: 20px;
+}
+
+.notation {
+  font-size: 20px;
+}
+
+.extra_note {
+  font-size: 20px;
+}
