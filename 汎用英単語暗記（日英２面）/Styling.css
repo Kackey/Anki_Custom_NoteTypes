@@ -1,3 +1,14 @@
+.entry {
+  color: rgb(255,85,0);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.q-entry {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+}
 
 .card {
   font-family: Meiryo, Arial;
@@ -36,6 +47,7 @@
   text-align: center;
   color: white;
   margin: auto;
+  margin-bottom: 10px;
   border-radius: 7px;
   background: #FED500;
 }
@@ -64,7 +76,7 @@
   text-align: left;
   margin-left: 40px;
   margin-right: 40px;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .phonetic {

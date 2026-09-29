@@ -1,3 +1,26 @@
+.entry {
+  color: rgb(255,85,0);
+  font-size: 50px;
+}
+
+.word_origin{
+  font-size: 35px;
+  margin: 10px auto 10px;
+}
+.word_image img {
+  width: 300px;
+  height: auto;
+}
+
+.extra_note img {
+  width: 500px;
+  height: auto;
+}
+
+.word img {
+  width: 300px;
+  height: auto;
+}
 
 .card {
   font-family: Meiryo, Arial;
@@ -36,6 +59,7 @@
   text-align: center;
   color: white;
   margin: auto;
+	margin-bottom: 10px;
   border-radius: 7px;
   background: #FED500;
 }

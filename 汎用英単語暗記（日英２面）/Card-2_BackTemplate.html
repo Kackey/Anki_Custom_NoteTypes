@@ -10,7 +10,9 @@
         <hr>
         <div class="word_card">
 
-          {{#SoundFile}}{{SoundFile}}{{/SoundFile}}{{EN}}<br>
+          <div class="entry">
+            {{#SoundFile}}{{SoundFile}}{{/SoundFile}}{{EN}}<br>
+          </div>
 
           <div class="phonetic">
             {{#PhoneticSymbols}}{{PhoneticSymbols}}{{/PhoneticSymbols}}
@@ -18,7 +20,9 @@
 
           {{JP}}<br>
 
-          {{#Image}}{{Image}}{{/Image}}
+					<div class="word_image">
+            {{#Image}}{{Image}}{{/Image}}
+          </div>
 
           <div class="example">
             {{#Example}}<br><hr>{{/Example}}
