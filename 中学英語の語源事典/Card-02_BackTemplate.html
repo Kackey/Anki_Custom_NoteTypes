@@ -8,11 +8,21 @@
 			<div class="card-body">
         <div class="word_card">
 
-          {{#Word-01_Sound}}{{Word-01_Sound}}{{/Word-01_Sound}}{{Word-01_EN}}<br>
+          <div class="entry">
+            {{#Word-01_Sound}}{{Word-01_Sound}}{{/Word-01_Sound}}{{Word-01_EN}}<br>
+          </div>
+
+          {{#Word-01_Phonetics}}{{Word-01_Phonetics}}<br>{{/Word-01_Phonetics}}
+
           {{Word-01_JP}}<br>
-          {{#Word-01_Phonetics}}【{{Word-01_Phonetics}}】<br>{{/Word-01_Phonetics}}
-          {{#Word-01_WordOrigin}}{{Word-01_WordOrigin}}<br>{{/Word-01_WordOrigin}}
-          {{#Word-01_Image}}{{Word-01_Image}}<br>{{/Word-01_Image}}
+
+          <div class="word_origin">
+            {{#Word-01_WordOrigin}}{{Word-01_WordOrigin}}<br>{{/Word-01_WordOrigin}}
+          </div>
+
+          <div class="word_image">
+            {{#Word-01_Image}}{{Word-01_Image}}<br>{{/Word-01_Image}}
+          </div>
 
           <div class='extra_note'>
             {{#Word-01_Extra}}{{Word-01_Extra}}{{/Word-01_Extra}}

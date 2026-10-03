@@ -7,12 +7,24 @@
 		<div class="answer">
 			<div class="card-body">
         <div class="word_card">
+
           {{type:Word-06_EN}}<hr>
-          {{#Word-06_Sound}}{{Word-06_Sound}}{{/Word-06_Sound}}{{Word-06_EN}}<br>
+
+          <div class="entry">
+            {{#Word-06_Sound}}{{Word-06_Sound}}{{/Word-06_Sound}}{{Word-06_EN}}<br>
+          </div>
+
+          {{#Word-06_Phonetics}}{{Word-06_Phonetics}}<br>{{/Word-06_Phonetics}}
+
           {{Word-06_JP}}<br>
-          {{#Word-06_Phonetics}}【{{Word-06_Phonetics}}】<br>{{/Word-06_Phonetics}}
-          {{#Word-06_WordOrigin}}{{Word-06_WordOrigin}}<br>{{/Word-06_WordOrigin}}
-          {{#Word-06_Image}}{{Word-06_Image}}<br>{{/Word-06_Image}}
+
+          <div class="word_origin">
+            {{#Word-06_WordOrigin}}{{Word-06_WordOrigin}}<br>{{/Word-06_WordOrigin}}
+          </div>
+
+          <div class="word_image">
+            {{#Word-06_Image}}{{Word-06_Image}}<br>{{/Word-06_Image}}
+          </div>
 
           <div class='extra_note'>
             {{#Word-06_Extra}}{{Word-06_Extra}}{{/Word-06_Extra}}

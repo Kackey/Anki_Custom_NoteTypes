@@ -1,12 +1,14 @@
 .entry {
   color: rgb(255,85,0);
   font-size: 50px;
+  font-weight: bold;
 }
 
 .word_origin{
-  font-size: 35px;
+  font-size: 30px;
   margin: 10px auto 10px;
 }
+
 .word_image img {
   width: 300px;
   height: auto;
@@ -98,7 +100,7 @@
   text-align: left;
   margin-left: 40px;
   margin-right: 40px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .phonetic {
